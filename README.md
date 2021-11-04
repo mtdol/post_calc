@@ -9,7 +9,7 @@ converts an infix arithmetic expression to a postfix one
 takes a postfix arithmetic expression and computes it  
 `12+` to `3`  
 ## compute.sh  
-runs both applications in tandem to compute an infix expression  
+runs both applications in order to compute an infix expression  
 
 # Compile  
 ```
