@@ -12,8 +12,10 @@ takes a postfix arithmetic expression and computes it
 runs both applications in tandem to compute an infix expression  
 
 # Compile  
+```
 gcc to_post.c -o to_post.exe
 gcc post_calc.c -o post_calc.exe
+```
 
 # Run 
 The calculator only supports single digit numbers as input.  
@@ -25,4 +27,4 @@ Enter the input as a single string
 `./post_calc.exe "1 2 +"`
 ## compute.sh  
 Enter the input as a single string  
-`./compute.exe "1 + 2"`
+`./compute.sh "1 + 2"`
